@@ -4,7 +4,7 @@
   "description": "Yeoman generator to author node packages written in ES2015+",
   "homepage": "https://github.com/screendriver/generator-babel-mocha-node",
   "author": {
-    "name": "Christian Rackerseder",
+    "name": "ScreenDriver",
     "email": "git@echooff.de",
     "url": ""
   },
