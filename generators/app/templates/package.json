@@ -1,7 +1,7 @@
 {
   "name": "<%= packageName %>",
-  "version": "0.0.1",
-  "description": "<%= description %>",
+  "version": "0.0.0",
+  "description": "<%- description %>",
   "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<%= user %>/<%= repo %>.git"
+    "url": ""
   },
   "keywords": [],
-  "author": "<%- author %>",
+  "author": "<%- authorName %> <<%- authorEmail %>>",
   "license": "MIT",
   "dependencies": {
   },
