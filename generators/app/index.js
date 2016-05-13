@@ -5,11 +5,9 @@ var yosay = require('yosay');
 
 module.exports = yeoman.Base.extend({
   prompting: function () {
-    // Have Yeoman greet the user.
     this.log(yosay(
       'Welcome to the exceptional ' + chalk.red('generator-babel-mocha-node') + ' generator!'
     ));
-
     var prompts = [{
       type: 'confirm',
       name: 'someAnswer',
