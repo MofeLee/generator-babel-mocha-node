@@ -13,8 +13,20 @@ npm install -g generator-babel-mocha-node
 Then generate your new project:
 
 ```bash
-yo babel-mocha-node
+yo babel-mocha-node <appname>
 ```
+
+After that you have a ready to run project that can:
+
+1. be written purely in [ES2015](https://babeljs.io) + all [stage 3](http://babeljs.io/docs/plugins/preset-stage-3/)
+features. Your project is **still** compatible with [npm](https://www.npmjs.com).
+Every time you make a `npm publish` all your source code will be transpiled to
+ES5 and only that code will be published.
+1. write unit tests in [Mocha](http://mochajs.org) and [Chai](http://chaijs.com)
+assertions.
+1. lint your code with [ESLint](http://eslint.org).
+
+Have a look at the `package.json` for all available [npm scripts](https://docs.npmjs.com/misc/scripts).
 
 ## Getting To Know Yeoman
 
@@ -25,7 +37,7 @@ yo babel-mocha-node
 
 ## License
 
-MIT © [Christian Rackerseder]()
+MIT
 
 
 [npm-image]: https://badge.fury.io/js/generator-babel-mocha-node.svg
